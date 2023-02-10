@@ -8,6 +8,8 @@
 
 5. Update the README and replace capitalized strings with project-specific name, description, license, etc.
 
-6. Website content lives in subdirectories of /content/en/. Each menu item has its own subdirectory and an index file named _index.md (note the leading underscore). Additional files can be added to a subdirectory, including markdown files (end in .md), images, and downloadable files (such as .pdf).
+6. In content/en/_index.md, replace the README in the title section with the name of the project. Replace the placeholder paragraph with a paragraph that describes the project.
 
-7. Once the site is deployed, delete this INSTRUCTIONS file from your project's repo.
+7. Website content lives in subdirectories of /content/en/. Each menu item has its own subdirectory and an index file named _index.md (note the leading underscore). Additional files can be added to a subdirectory, including markdown files (end in .md), images, and downloadable files (such as .pdf).
+
+8. Once the site is deployed, delete this INSTRUCTIONS file from your project's repo.
