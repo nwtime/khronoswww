@@ -1,5 +1,5 @@
 ---
-title: "Welcome to The REPLACEME Project"
+title: "Welcome to The Khronos Project"
 ---
 
 REPLACEME WITH PARAGRAPH DESCRIBING THE PROJECT

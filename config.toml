@@ -1,5 +1,5 @@
-baseURL = "https://REPLACEME.nwtime.org/"
-title = "REPLACEME Project"
+baseURL = "https://khronos.nwtime.org/"
+title = "Khronos Project"
 enableRobotsTXT = true
 
 [params.plugins]
@@ -31,7 +31,7 @@ anchor = "smart"
 [languages]
 [languages.en]
 contentDir = "content/en"
-title = "REPLACEME Project"
+title = "Khronos Project"
 languageName ="English"
 weight = 1
 
