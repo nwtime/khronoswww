@@ -1,19 +1,21 @@
 {{ define "main" }}
-<body style="--bs-body-text-align: center;">
+<body>
   <section class="min-vh-100 mt-auto">
-  	<h4>{{ .Title }}</h4></br> 
+  	<h4 style="text-align: center">{{ .Title }}</h4></br> 
 
-	<div class="container" style="--bs-body-text-align: start;">
+	<div class="container">
     <p>{{.Content}}</p>
 	</div>
 	<hr class="mt-5">
 <br />
+<div style="text-align: center">
 <button class="btn btn-primary btn-lg">
-  <a class="btn btn-primary btn-lg" href="https://REPLACEME">Download Khronos <img src="/images/icons/download.svg"></img></a>
+  <a class="btn btn-primary btn-lg" href="https://github.com/netars/chronos">Khronos Source Code <img src="/images/icons/download.svg"></img></a>
     </button>	
 <button class="btn btn-primary btn-lg">
-  <a class="btn btn-primary btn-lg" href="REPLACEME">Report a Bug <img src="/images/icons/bug.svg"></img></a>
+  <a class="btn btn-primary btn-lg" href="https://github.com/netars/chronos/issues">Report a Bug <img src="/images/icons/bug.svg"></img></a>
 </button>
+</div>
 <br /><br />
   </section>
 </body>

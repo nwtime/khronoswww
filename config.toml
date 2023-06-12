@@ -48,8 +48,8 @@ weight = 1
 [params]
 copyright = "Network Time Foundation"
 logo2 = "images/logo.png"
-github_repo = "https://github.com/REPLACEME"
-description = "REPLACEME"
+github_repo = "https://github.com/netars/chronos"
+description = "Khronos Project"
 images = ["/images/featured.webp"]
 
 # Define Content Security Policy
@@ -65,19 +65,14 @@ images = ["/images/featured.webp"]
   stylesrc = ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com", "https://cse.google.com", "https://www.google.com"]
   scriptsrc = ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https://www.google-analytics.com", "https://www.googletagmanager.com", "https://cse.google.com", "https://www.google.com", "https://www.clarity.ms"]
 
-[params.links]
-[[params.links.user]]
-	name = "Mailing lists"
-	url = "REPLACEME"
-	icon = "/images/icons/envelope.svg"
-        desc = "Discussion and help from your fellow users"
+#[params.links]
+#[[params.links.user]]
+#	name = "Mailing lists"
+#	url = "REPLACEME"
+#	icon = "/images/icons/envelope.svg"
+#        desc = "Discussion and help from your fellow users"
 
 [[menu.main]]
-    name = "Getting Involved"
-    url = "/getting-involved/"
-    weight = 40
-
-[[menu.main]]
-    name = "Documentation"
+    name = "Learn More"
     url = "/documentation/"
-    weight = 50
+    weight = 10
