@@ -71,8 +71,3 @@ images = ["/images/featured.webp"]
 #	url = "REPLACEME"
 #	icon = "/images/icons/envelope.svg"
 #        desc = "Discussion and help from your fellow users"
-
-[[menu.main]]
-    name = "Learn More"
-    url = "/documentation/"
-    weight = 10
