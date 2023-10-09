@@ -5,11 +5,53 @@ description: "Documentation Links for the Khronos Project"
 
 # Documentation
 
-* Latest IETF draft: [A Secure Selection and Filtering Mechanism for the Network Time Protocol with Khronos](https://datatracker.ietf.org/doc/draft-ietf-ntp-chronos/)
-  : This document specifies an extension to the NTPv4 client, named Khronos, which is used as a "watchdog" alongside NTPv4, and provides improved security against time shifting attacks. Khronos involves changes to the NTP client's system process only. Since it does not affect the wire protocol, the Khronos mechanism is applicable to any current or future time protocol.
-* [Preventing (Network) Time Travel with Chronos (pdf)](/downloads/ndss18-final231.pdf)
-  : We present Chronos, a new NTP client that achieves good synchronization even in the presence of powerful attackers who are in direct control of a large number of NTP servers. Importantly, Chronos is backwards compatible with legacy NTP and involves no changes whatsoever to NTP servers.
-* [Preventing (Network) Time Travel with Chronos (pdf)](/downloads/Chronos_for_NANOG73.pdf) and [video](https://www.youtube.com/watch?v=wFlDGorTzCY)
-  : Khronos presentation at NANOG73.
+<div>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-5">
+      <div class="col">
+        <div class="card mh-100">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center; margin-top: 5px;">Papers</h5>
+			<ul>
+			  <li class="card-text"><b>Latest IETF draft</b>: <a href="https://datatracker.ietf.org/doc/draft-ietf-ntp-chronos/">A Secure Selection and Filtering Mechanism for the Network Time Protocol with Khronos</a></li>
+			  <li><b>NDSS Symposium 2018</b>: <a href="/downloads/ndss18-final231.pdf">Preventing (Network) Time Travel with Khronos</a></li>
+			</ul>
+              <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+	    <div class="card mh-100">
+          <div class="card-body">
+            <h5 class="card-title"  style="text-align: center; margin-top: 5px;">Slides</h5>
+			<ul>
+			  <li><a href="/downloads/Chronos_for_NANOG73.pdf">NANOG73</a><br><br><br><br><br></li>
+			</ul>
+              <div class="d-flex justify-content-between align-items-center">
+			</div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mh-100">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center; margin-top: 5px;">Video</h5>
+			<ul>
+			  <li><a href="https://www.youtube.com/watch?v=wFlDGorTzCY">NANOG73</a><br><br><br><br><br></li>
+			</ul>
+              <div class="d-flex justify-content-between align-items-center">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<br>
+
+#### From the media
+
+[Boffins want to stop Network Time Protocol's time-travelling exploits](https://www.theregister.com/2018/07/02/ntp_revision_to_end_timing_attacks/)
+<br><br>
+<hr>
