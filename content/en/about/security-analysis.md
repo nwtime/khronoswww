@@ -5,6 +5,12 @@ description: "Learn more about the Khronos Project"
 
 # Security Analysis Overview
 
+Based on [Khronos design](/about/how-khronos-works/), Khronos checks that the following two conditions hold for the remaining sampled offsets:
+
+* The maximal distance between every two offsets does not exceed 2w.
+
+* The distance between the offsets average and Khronos inter-poll offset is at most ERR+2w.
+
 Time-samples that are at most w away from UTC are considered "good", whereas other samples are considered "malicious". Two scenarios are considered:
 
 1. Less than 2/3 of the queried servers are under the attacker's control.
@@ -20,7 +26,7 @@ The first scenario, where there are more than 1/3 good samples, consists of two 
   <div class="row">
     <div class="col-xl-6 col-lg-6 col-md-6">
 	  <br>
-      <p>In the first of these two cases (at least one good sample in the set of samples that was not eliminated by Khronos), the other remaining samples, including those provided by the attacker, must be close to a good sample (otherwise, the <a href="/about/how-khronos-works/">first condition of Khronos</a> is violated, and a new set of servers is chosen. This implies that the average of the remaining samples must be close to UTC.</p>
+      <p>In the first of these two cases (at least one good sample in the set of samples that was not eliminated by Khronos), the other remaining samples, including those provided by the attacker, must be close to a good sample (otherwise, the <a href="/about/how-khronos-works/">first condition of Khronos</a> is violated, and a new set of servers is chosen). This implies that the average of the remaining samples must be close to UTC.</p>
 	</div>
     <div class="col-xl-6 col-lg-6 col-md-6">
 	  <figure class="figure">

@@ -5,11 +5,17 @@ description: "Learn more about the Khronos Project"
 
 # How does Khronos work?
 
-**Khronos is a watchdog** - a mechanism that runs in the background, continuously monitoring client clock (which is updated by NTPv4) and calculating an estimated offset. When the offset exceeds a predefined threshold, this is interpreted as the client experiencing a time shifting attack. In this case, Khronos updates the client's clock.
+#### Khronos is a watchdog
 
-When the client is not under attack, Khronos is passive, allowing NTPv4 to control the client's clock and providing the ordinary high precision and accuracy of NTPv4. 
+A watchdog is a mechanism that runs in the background, continuously monitoring client clock (which is updated by NTPv4) and calculating an estimated offset. When the offset exceeds a predefined threshold, this is interpreted as the client experiencing a time shifting attack. In this case, Khronos updates the client's clock.
 
-**Khronos design:** Khronos periodically queries a set of m (tens) servers at random out of a large (hundreds) server pool in each Khronos poll interval.
+When the client is not under attack, Khronos is passive, allowing NTPv4 to control the client's clock and providing the ordinary high precision and accuracy of NTPv4.
+
+***
+
+#### Khronos design 
+
+Khronos periodically queries a set of m (tens) servers at random out of a large (hundreds) server pool in each Khronos poll interval.
 
 Then, given a sample from each server, Khronos discards outliers by discarding the lowest third of the samples' offset values and highest third of the samples' offset values. Khronos checks that the following two conditions hold for the remaining sampled offsets:
 
