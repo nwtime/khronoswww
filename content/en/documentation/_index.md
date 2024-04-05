@@ -13,7 +13,7 @@ description: "Documentation Links for the Khronos Project"
       <div class="col">
         <div class="card mh-100">
           <div class="card-body">
-			<p class="card-text"><b>Latest IETF draft</b>: <a href="https://datatracker.ietf.org/doc/draft-ietf-ntp-chronos/">A Secure Selection and Filtering Mechanism for the Network Time Protocol with Khronos</a></p>
+			<p class="card-text"><b>RFC 9523</b>: <a href="https://datatracker.ietf.org/doc/rfc9523/">A Secure Selection and Filtering Mechanism for the Network Time Protocol with Khronos</a></p>
               <div class="d-flex justify-content-between align-items-center">
             </div>
           </div>
