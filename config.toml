@@ -77,9 +77,12 @@ images = ["/images/featured.webp"]
   stylesrc = ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com", "https://cse.google.com", "https://www.google.com"]
   scriptsrc = ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https://www.google-analytics.com", "https://www.googletagmanager.com", "https://cse.google.com", "https://www.google.com", "https://www.clarity.ms", "https://secure.lglforms.com", "http://cse.google.com"]
 
-#[params.links]
-#[[params.links.user]]
-#	name = "Mailing lists"
-#	url = "REPLACEME"
-#	icon = "/images/icons/envelope.svg"
-#        desc = "Discussion and help from your fellow users"
+[params.links]
+[[params.links.user]]
+	name ="Join the Community on Discourse"
+	url = "https://community.nwtime.org"
+	icon = "/images/icons/discourse.svg"
+[[params.links.user]]
+	name ="Subscribe to NTF's Newsletter"
+	url = "https://www.nwtime.org/subscribe/"
+	icon = "/images/icons/newspaper.svg"
