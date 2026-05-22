@@ -12,7 +12,9 @@ title: "Welcome to The Khronos Project"
 		<li>Low computational and communication overhead with few queries to NTP servers.</li>
 	  </ul>
 	  <p>Since Khronos does not affect the wire protocol, the Khronos mechanism is applicable to any current or future time protocol.</p>
-	  <p>Khronos is described by <a href="https://datatracker.ietf.org/doc/rfc9523/">RFC 9523</a>. A Python and a C implementation are <a href="https://github.com/nwtime/khronos">available</a>.</p>
+	  <p>Khronos is described by <a href="https://datatracker.ietf.org/doc/rfc9523/">RFC 9523</a>. 
+	     A <a href="https://git.nwtime.org/pc/khronos/src/branch/master">Python</a> and a 
+		 <a href="https://git.nwtime.org/pc/khronos/src/branch/final_project">C implementation</a> are available.</p>
 	</div>
     <div class="col-xl-6 col-lg-6 col-md-6">
 	  <figure class="figure">
